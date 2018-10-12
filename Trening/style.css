@@ -38,7 +38,7 @@ header {
 }
 .header-conteiner{
 	width: 90%;
-
+	height: 100%;
 	display: flex;
 	justify-content: space-between;
 	
@@ -85,7 +85,7 @@ li{
 	padding: 56px 25px;
 }
 .header-conteiner a:hover{
-	box-shadow: 0 5px 0 0px #cc0000; inset;
+	box-shadow: inset 0 -5px 0 0 #cc0000;
 	
 }
 
